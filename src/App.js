@@ -1,11 +1,12 @@
 
+import { BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import { BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
+
 function App() {
   return (
- 
+ <div>
  
  <Router>
         <Routes>
@@ -14,7 +15,7 @@ function App() {
         <Route path = '/Contact' element={<Contact/>}/>
         </Routes>
       </Router>
-  
+      </div>
 
   );
 };

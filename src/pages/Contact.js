@@ -1,13 +1,16 @@
-
-import React, { useState } from 'react';
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
+import thax from '../images/thax.jpg';
 import ReusableButton from '../Components/Button';
+import React, { useState } from 'react';
 
-const Contact = () => {
+
+
+const   Contact= ()=>{
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [mobileNumber, setMobileNumber] = useState('');
   const [sentMessages, setSentMessages] = useState([]);
 
   const handleSubmit = (event) => {
@@ -26,36 +29,54 @@ const Contact = () => {
     alert(alertMessage);
   };
 
-  return (
-    <div>
-      <Header/>
-      <h2 style={{textAlign: 'center', marginTop: '20px', color: '#5c0c67'}}>Here you can contact me for more information</h2>
-      <div className="box1">
-      
-        <div>
-          <form onSubmit={handleSubmit}>
-            <h3 style={{color: '#5c0c67', marginTop: '20px'}}>Send a message</h3>
-            <div className="box" style={{width: '400px', color: '#5c0c67'}}>
-              <label htmlFor="name" className="label1">Name</label>
-              <input type="text" value={name} onChange={(event) => setName(event.target.value)} className="input-field" />
-              <hr className="hr1" />
-              <label htmlFor="email" className="label1">Email</label>
-              <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} className="input-field" required autoFocus />
-              <hr className="hr1" />
-              <label htmlFor="message" className="label2">Message</label>
-              <textarea name="message" id="message" value={message} onChange={(event) => setMessage(event.target.value)} className="input-field1"></textarea>
-              <hr />
-              <ReusableButton type="submit">Send the message</ReusableButton>
-            </div>
-          </form>
-          <p style={{textAlign: "center"}}>OR</p>
-          <ReusableButton>Book a call</ReusableButton>
-        </div>
-      </div>
-      <Footer/>
-    </div>
+
+
+
+
+  return  (
+    <>    <Header/>
+        <h2 className="page-title">Contact Me</h2>
+  
+  <div className="block1">
+    
+    
+      <form id="contactForm" onsubmit="return false" onSubmit={handleSubmit}>
+          <div className="rectangle1">
+
+              <label htmlFor="name" className="label1">Full name</label>
+              <input type="text"  value={name} onChange={(event) => setName(event.target.value)} name="name" id="fullName" placeholder="Enter your name" className="input-field" required autofocus></input>
+
+              <label htmlFor="email" className="label2">Email</label>
+              <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} name="email" id="emailAddress" placeholder="Your Email" className="input-field" required
+                  autofocus></input>
+
+
+              <label className="label--large">
+                  Your message
+                  <textarea name="message" value={message} onChange={(event) => setMessage(event.target.value)} cols="40" rows="10" className="textarea"
+                      placeholder="Enter your message" id="yourMessage"></textarea>
+              </label>
+
+              <label htmlFor="Mobile-no" className="label4">Mobile number</label>
+              <input type="number" value={mobileNumber} onChange={(event) => setMobileNumber(event.target.value)}  name="Mobile-no" id="mobileNumber" placeholder="Mobile number" className="input-field"
+                  required autofocus></input>
+              <ReusableButton type="submit">Send contact</ReusableButton>
+          </div>
+
+          
+      </form>
+
+<div className="rectangle2">
+<img className='thax' style={{height: 600}} src={thax} alt="thax4conact"></img>
+</div>
+
+  </div>
+
+
+
+ <Footer/> </>
   );
-}
+};
+
 
 export default Contact;
-
