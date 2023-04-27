@@ -14,6 +14,7 @@ const Contact = () => {
     event.preventDefault();
     const newMessage = {
       name: name,
+      
       email: email,
       message: message
     };
