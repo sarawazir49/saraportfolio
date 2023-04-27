@@ -1,8 +1,8 @@
-import Header from "../../Components/Header";
-import Footer from "../../Components/Footer";
-import sarawaz from '../../images/sarawaz.jpg';
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import sarawaz from '../images/sarawaz.jpg';
 import React from 'react';
-import '../../../src/index.css';
+
 const   Home= ()=>{
     return  (
       <>    <Header/>

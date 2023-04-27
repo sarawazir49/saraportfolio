@@ -26,9 +26,9 @@ const   Header= ()=>{
                         
                                 <nav className="navigation">
                                     <ul className="menu">
-                                       <li className="list-item-nav"><a href="/">Home </a></li>
-                                       <li className="list-item-nav"><a href="/">About</a></li>
-                                       <li className="list-item-nav"><a href="/">CONTACT  </a></li>
+                                       <li className="list-item-nav"><a href="/Home">Home </a></li>
+                                       <li className="list-item-nav"><a href="/About">About</a></li>
+                                       <li className="list-item-nav"><a href="/Contact">Contact  </a></li>
                                     </ul>
                 
                                 </nav>

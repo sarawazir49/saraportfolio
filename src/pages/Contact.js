@@ -1,9 +1,8 @@
 
 import React, { useState } from 'react';
-import Header from '../../Components/Header';
-import Footer from '../../Components/Footer';
-import '../../../src/index.css';
-import ReusableButton from '../../Components/Button';
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import ReusableButton from '../Components/Button';
 
 const Contact = () => {
   const [name, setName] = useState('');

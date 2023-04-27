@@ -1,7 +1,8 @@
 import React from 'react';
-import Header from "../../Components/Header";
-import Footer from "../../Components/Footer";
-import "./About/about.css";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+
+
 const   About= ()=>{
     return  (
       <div>
