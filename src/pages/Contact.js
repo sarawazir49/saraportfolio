@@ -48,18 +48,18 @@ const   Contact= ()=>{
 
               <label htmlFor="email" className="label2">Email</label>
               <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} name="email" id="emailAddress" placeholder="Your Email" className="input-field" required
-                  autoFocus></input>
+                  ></input>
 
 
               <label className="label--large">
                   Your message
                   <textarea name="message" value={message} onChange={(event) => setMessage(event.target.value)} cols="40" rows="10" className="textarea"
-                      placeHolder="Enter your message" id="yourMessage"></textarea>
+                      placeHolder="Enter your message" id="yourMessage"  required></textarea>
               </label>
 
               <label htmlFor="Mobile-no" className="label4">Mobile number</label>
               <input type="number" value={mobileNumber} onChange={(event) => setMobileNumber(event.target.value)}  name="Mobile-no" id="mobileNumber" placeHolder="Mobile number" className="input-field"
-                  required autoFocus></input>
+                  required ></input>
               <ReusableButton type="submit">Send contact</ReusableButton>
           </div>
 
