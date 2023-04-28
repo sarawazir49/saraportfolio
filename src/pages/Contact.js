@@ -13,7 +13,7 @@ const   Contact= ()=>{
   const [mobileNumber, setMobileNumber] = useState('');
   const [sentMessages, setSentMessages] = useState([]);
 
-  const handleSubmit = (event) => {
+  const toSubmit = (event) => {
     event.preventDefault();
     const newMessage = {
       name: name,
@@ -25,7 +25,7 @@ const   Contact= ()=>{
     setName('');
     setEmail('');
     setMessage('');
-    const alertMessage = `Thank you, your message has been sent. You will receive an answer from us very soon.\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`;
+    const alertMessage = `Thank you for contacting me.\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`;
     alert(alertMessage);
   };
 
@@ -40,26 +40,26 @@ const   Contact= ()=>{
   <div className="block1">
     
     
-      <form id="contactForm" onsubmit="return false" onSubmit={handleSubmit}>
+      <form id="contactForm" onsubmit="return false" onSubmit={toSubmit}>
           <div className="rectangle1">
 
               <label htmlFor="name" className="label1">Full name</label>
-              <input type="text"  value={name} onChange={(event) => setName(event.target.value)} name="name" id="fullName" placeholder="Enter your name" className="input-field" required autofocus></input>
+              <input type="text"  value={name} onChange={(event) => setName(event.target.value)} name="name" id="fullName" placeholder="Enter your name" className="input-field" required autoFocus></input>
 
               <label htmlFor="email" className="label2">Email</label>
               <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} name="email" id="emailAddress" placeholder="Your Email" className="input-field" required
-                  autofocus></input>
+                  autoFocus></input>
 
 
               <label className="label--large">
                   Your message
                   <textarea name="message" value={message} onChange={(event) => setMessage(event.target.value)} cols="40" rows="10" className="textarea"
-                      placeholder="Enter your message" id="yourMessage"></textarea>
+                      placeHolder="Enter your message" id="yourMessage"></textarea>
               </label>
 
               <label htmlFor="Mobile-no" className="label4">Mobile number</label>
-              <input type="number" value={mobileNumber} onChange={(event) => setMobileNumber(event.target.value)}  name="Mobile-no" id="mobileNumber" placeholder="Mobile number" className="input-field"
-                  required autofocus></input>
+              <input type="number" value={mobileNumber} onChange={(event) => setMobileNumber(event.target.value)}  name="Mobile-no" id="mobileNumber" placeHolder="Mobile number" className="input-field"
+                  required autoFocus></input>
               <ReusableButton type="submit">Send contact</ReusableButton>
           </div>
 

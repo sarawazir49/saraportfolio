@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
- <div>
+ <>
  
  <Router>
         <Routes>
@@ -15,7 +15,7 @@ function App() {
         <Route path = '/Contact' element={<Contact/>}/>
         </Routes>
       </Router>
-      </div>
+      </>
 
   );
 };

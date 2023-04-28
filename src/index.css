@@ -59,7 +59,7 @@ body {
   .input__text {
     font-family: "Alkatra", cursive;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 14px;
     line-height: 26px;
   }
@@ -83,9 +83,9 @@ body {
     height: 26px;
     font-family: "Quicksand", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 14px;
-    line-height: 240px;
+    line-height: 320px;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -111,7 +111,7 @@ body {
   }
   
   .nav__title {
-    font-size: 24px;
+    font-size: 40px;
     line-height: 26px;
     color: white;
     font-family: "Quicksand", sans-serif;
@@ -147,12 +147,17 @@ body {
         -ms-flex-align: center;
             align-items: center;
     text-transform: uppercase;
-    padding: 10px;
+  
     color: #FFFFFF;
-    list-style: none;
+ 
+    list-style-type: none;
   }
   
   .menu {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -163,6 +168,9 @@ body {
     line-height: 28px;
     margin-top: 10px;
     font-family: "Quicksand", sans-serif;
+    list-style-type: none;
+   
+ 
   }
   
   h3, a {
@@ -189,196 +197,6 @@ body {
     margin: 20px;
   }
   
-  body {
-    max-width: 100%;
-    min-height: 100%;
-  }
-  
-  .container1 {
-    background-image: url(../images/Sarad.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-top: 10px;
-    padding-bottom: 170px;
-  }
-  
-  .header__title {
-    font-family: "Alkatra", cursive;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 26px;
-    margin-bottom: 18px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    color: white;
-  }
-  .header__subtitle {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    font-family: "Alkatra", cursive;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 26px;
-    letter-spacing: 7px;
-    margin-bottom: 41px;
-    color: white;
-  }
-  
-  form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    margin-bottom: 120px;
-  }
-  
-  input {
-    width: 200px;
-    height: 43px;
-    left: 0px;
-    top: 0px;
-  }
-  
-  .input__text {
-    font-family: "Alkatra", cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
-  }
-  
-  .form__button {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    color: white;
-    width: 95px;
-    background: #346a79;
-    border: 2px solid #FFFFFF;
-  }
-  
-  .scroll-down {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 26px;
-    font-family: "Quicksand", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 240px;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    letter-spacing: 2.8px;
-    color: #FFFFFF;
-  }
-  
-  .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background: #346a79;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 10px;
-    height: 30px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  
-  .nav__title {
-    font-size: 24px;
-    line-height: 26px;
-    color: white;
-    font-family: "Quicksand", sans-serif;
-  }
-  
-  .navigation {
-    max-width: 100%;
-    height: 83px;
-    background: #346a79;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    height: 30px;
-  }
-  
-  .list-item-nav {
-    font-family: "Quicksand", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-transform: uppercase;
-    padding: 10px;
-    color: #FFFFFF;
-    list-style: none;
-  }
-  
-  .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    line-height: 28px;
-    margin-top: 10px;
-    font-family: "Quicksand", sans-serif;
-  }
-  
-  h3, a {
-    color: #FFFFFF;
-    height: 29px;
-  }
-  
-  a:hover {
-    color: palevioletred;
-  }
-  
-  .footer__contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-         
-  }
-  .footer__contact__info {
-    font-family: "Quicksand", sans-serif;
-    font-size: 15px;
-    color: #346a79;
-    margin: 20px;
-  }
   
   .info2 {
     display: -webkit-box;
@@ -397,197 +215,7 @@ body {
     margin: 20px;
   }
   
-  body {
-    max-width: 100%;
-    min-height: 100%;
-  }
-  
-  .container1 {
-    background-image: url(../images/Sarad.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-top: 10px;
-    padding-bottom: 170px;
-  }
-  
-  .header__title {
-    font-family: "Alkatra", cursive;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 26px;
-    margin-bottom: 18px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    color: white;
-  }
-  .header__subtitle {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    font-family: "Alkatra", cursive;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 26px;
-    letter-spacing: 7px;
-    margin-bottom: 41px;
-    color: white;
-  }
-  
-  form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    margin-bottom: 120px;
-  }
-  
-  input {
-    width: 200px;
-    height: 43px;
-    left: 0px;
-    top: 0px;
-  }
-  
-  .input__text {
-    font-family: "Alkatra", cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
-  }
-  
-  .form__button {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    color: white;
-    width: 95px;
-    background: #346a79;
-    border: 2px solid #FFFFFF;
-  }
-  
-  .scroll-down {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 26px;
-    font-family: "Quicksand", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 240px;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    letter-spacing: 2.8px;
-    color: #FFFFFF;
-  }
-  
-  .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background: #346a79;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 10px;
-    height: 30px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  
-  .nav__title {
-    font-size: 24px;
-    line-height: 26px;
-    color: white;
-    font-family: "Quicksand", sans-serif;
-  }
-  
-  .navigation {
-    max-width: 100%;
-    height: 83px;
-    background: #346a79;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    height: 30px;
-  }
-  
-  .list-item-nav {
-    font-family: "Quicksand", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-transform: uppercase;
-    padding: 10px;
-    color: #FFFFFF;
-    list-style: none;
-  }
-  
-  .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    line-height: 28px;
-    margin-top: 10px;
-    font-family: "Quicksand", sans-serif;
-  }
-  
-  h3, a {
-    color: #FFFFFF;
-    height: 29px;
-  }
-  
-  a:hover {
-    color: palevioletred;
-  }
-  
-  .footer__contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-          
-  }
-  .footer__contact__info {
-    font-family: "Quicksand", sans-serif;
-    font-size: 15px;
-    color: #346a79;
-    margin: 20px;
-  }
-  
+ 
   .rectangle1 {
     display: -webkit-box;
     display: -ms-flexbox;

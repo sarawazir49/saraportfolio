@@ -1,4 +1,4 @@
-
+import ReusableButton from '../Components/Button';
 const   Header= ()=>{
     return  (
         <header>
@@ -7,13 +7,12 @@ const   Header= ()=>{
               
     
                 <form action="input">
-                    <label for="inputsearch" className="label__search">
+                    <label htmlfor="inputsearch" className="label__search">
                         <input type="text" className="input__text" id="inputsearch" placeholder="Search ">
                         </input>
                     </label>
-                    <button type="button" className="form__button">
-                        <p className="form__buttontext">Search <i className="fa fa-search"></i></p>
-                    </button>
+                    <ReusableButton  className="form__buttontext">Search <i className="fa fa-search"></i>
+                        </ReusableButton>
                 </form>
                 <div className="scroll-down" >
                     <a href="#menu"> <h3>Scroll down <i className="fa fa-angle-double-down"></i></h3>    
@@ -26,9 +25,11 @@ const   Header= ()=>{
                         
                                 <nav className="navigation">
                                     <ul className="menu">
-                                       <li className="list-item-nav"><a href="/Home">Home </a></li>
-                                       <li className="list-item-nav"><a href="/About">About</a></li>
-                                       <li className="list-item-nav"><a href="/Contact">Contact  </a></li>
+                                       <li className="Home" ><a href="/Home">Home </a></li>
+
+                                       <li className="About"><a href="/About">About</a></li>
+                                       
+                                       <li className="Contact"><a href="/Contact">Contact  </a></li>
                                     </ul>
                 
                                 </nav>
