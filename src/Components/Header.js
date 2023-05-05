@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import ReusableButton from '../Components/Button';
 const   Header= ()=>{
     return  (
@@ -25,11 +26,15 @@ const   Header= ()=>{
                         
                                 <nav className="navigation">
                                     <ul className="menu">
-                                       <li className="Home" ><a href="/Home">Home </a></li>
-
-                                       <li className="About"><a href="/About">About</a></li>
+                                       <li className="Home">
+                                        <Link className='links' to = "/Home">Home</Link>
                                        
-                                       <li className="Contact"><a href="/Contact">Contact  </a></li>
+                                       </li>
+
+                                       <li className="About">
+                                        <Link className='links' to = "/About">About</Link></li>
+                                       
+                                       <li className="Contact"><Link className='links'  to = "/Contact">Contact</Link></li>
                                     </ul>
                 
                                 </nav>

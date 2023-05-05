@@ -1,11 +1,10 @@
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+
 import sarawaz from '../images/sarawaz.jpg';
 import React from 'react';
 
 const   Home= ()=>{
     return  (
-      <>    <Header/>
+      <>   
 <main>
     <div className="part1">
        
@@ -26,7 +25,7 @@ const   Home= ()=>{
         </div>
     </div>
    </main>
-   <Footer/> </>
+    </>
     );
 };
 

@@ -1,5 +1,4 @@
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
+
 import thax from '../images/thax.jpg';
 import ReusableButton from '../Components/Button';
 import React, { useState } from 'react';
@@ -34,7 +33,7 @@ const   Contact= ()=>{
 
 
   return  (
-    <>    <Header/>
+    <>    
         <h2 className="page-title">Contact Me</h2>
   
   <div className="block1">
@@ -73,8 +72,7 @@ const   Contact= ()=>{
   </div>
 
 
-
- <Footer/> </>
+ </>
   );
 };
 

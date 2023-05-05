@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 
 
 const   About= ()=>{
     return  (
       <div>
-        <Header/>
+        
         <main>
   <div className="info2">
     <h1>Who is Sara?</h1>
@@ -37,7 +35,7 @@ I finished my University studies in ICT” Information Communication Technologie
   </div>
 
    </main>
-        <Footer/>
+       
          
             
             
