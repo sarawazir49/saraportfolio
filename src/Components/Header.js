@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import ReusableButton from '../Components/Button';
+
 const   Header= ()=>{
     return  (
         <header>
@@ -7,14 +7,7 @@ const   Header= ()=>{
         
               
     
-                <form action="input">
-                    <label htmlfor="inputsearch" className="label__search">
-                        <input type="text" className="input__text" id="inputsearch" placeholder="Search ">
-                        </input>
-                    </label>
-                    <ReusableButton  className="form__buttontext">Search <i className="fa fa-search"></i>
-                        </ReusableButton>
-                </form>
+       
                 <div className="scroll-down" >
                     <a href="#menu"> <h3>Scroll down <i className="fa fa-angle-double-down"></i></h3>    
                     </a>
