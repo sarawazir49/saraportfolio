@@ -1,4 +1,4 @@
-import e from"../images/sarawaz.jpg";import t from"react";let Home=()=><>   
+import e from"../images/sarawaz.jpg";let Home=()=><>   
 
 <main >
 
