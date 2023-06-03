@@ -366,7 +366,7 @@ body {
    margin: 5px;
   }
 
-  @media screen and (max-width: 800px)
+  @media screen and (max-width: 800px){
   body {
     max-width: 100%;
     min-height: 100%;
@@ -427,7 +427,7 @@ body {
     font-weight: 400px;
     font-size: 14px;
     line-height: 26px;
-  }
+  }}
           
   @media screen and (max-width: 470px) {
     body {
