@@ -365,3 +365,211 @@ body {
   a{
    margin: 5px;
   }
+
+  @media screen and (max-width: 800px)
+  body {
+    max-width: 100%;
+    min-height: 100%;
+  }
+  .container1 {
+    background-image: url(../images/Sarad.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 250px;
+  }
+  
+  .header__title {
+    font-family: "Alkatra", cursive;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    color: white;
+  }
+  .header__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    font-family: "Alkatra", cursive;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 7px;
+    margin-bottom: 41px;
+    color: white;
+  }
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 120px;
+  }
+  input {
+    width: 200px;
+    height: 43px;
+    left: 0px;
+    top: 0px;
+  }
+  .input__text {
+    font-family: "Alkatra", cursive;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+          
+  @media screen and (max-width: 470px) {
+    body {
+      max-width: 100%;
+      min-height: 100%;
+    }
+  
+    .container1 {
+      padding-bottom: 150px;
+    }
+  
+    .header__title {
+      font-size: 30px;
+      line-height: 22px;
+      margin-bottom: 12px;
+    }
+  
+    .header__subtitle {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 28px;
+      letter-spacing: 4px;
+    }
+  
+    form {
+      margin-bottom: 80px;
+    }
+  
+    input {
+      width: 150px;
+      height: 30px;
+    }
+  
+    .input__text {
+      font-size: 12px;
+    }
+  
+    .form__button {
+      width: 70px;
+    }
+  
+    .scroll-down {
+      font-size: 12px;
+      line-height: 240px;
+    }
+  
+    .wrapper {
+      padding: 5px;
+      height: 20px;
+    }
+  
+    .nav__title {
+      font-size: 30px;
+    }
+  
+    .navigation {
+      height: 60px;
+    }
+  
+    .list-item-nav {
+      font-size: 12px;
+    }
+  
+    .menu {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  
+    h3,
+    a {
+      height: 20px;
+    }
+  
+    .footer__contact__info {
+      font-size: 13px;
+      margin: 10px;
+    }
+  
+    .info2 {
+      font-size: medium;
+      margin: 10px;
+    }
+  
+    .rectangle1 {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    .label1,
+    .label2,
+    .label3,
+    .label4,
+    .label--large {
+      font-size: medium;
+    }
+  
+    .textarea {
+      width: 300px;
+      padding-left: 20px;
+    }
+  
+    .block1 {
+      font-size: medium;
+      max-width: 60%;
+      margin: 30px;
+      height: 400px;
+    }
+  
+    .input-field {
+      line-height: 17px;
+      margin-bottom: 5px;
+      padding-left: 20px;
+      width: 300px;
+      height: 30px;
+    }
+  
+    button {
+      width: 150px;
+      height: 36px;
+      font-size: medium;
+    }
+  
+    .page-title {
+      font-size: medium;
+    }
+  
+    .part1 {
+      flex-wrap: wrap;
+    }
+  
+    img {
+      width: 300px;
+    }
+  
+    .info1 {
+      font-size: medium;
+      width: 600px;
+      margin: 10px;
+    }
+  
+    a {
+      margin: 3px;
+    }
+  }
+  
