@@ -5,7 +5,7 @@ body {
 
 .container1 {
   background-image: url(../images/Sarad.jpg);
-  background-size: cover;
+ 
   background-position: center;
   padding-top: 10px;
   padding-bottom: 250px;
@@ -67,12 +67,10 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 26px;
   font-family: "Quicksand", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 600px;
   letter-spacing: 2.8px;
   color: #FFFFFF;
 }
@@ -80,7 +78,7 @@ input {
 .wrapper {
   display: flex;
   background: #346a79;
-  justify-content: space-between;
+  justify-content:flex-end;
   padding: 10px;
   height: 30px;
   align-items: center;
@@ -171,15 +169,9 @@ input {
   
  
   .rectangle1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
+   
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 30px;
     margin: 40px;
   }
@@ -208,21 +200,22 @@ input {
     padding-left: 30px;
   }
   
-  
+  form {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 120px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
     .block1 {
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: flex-start;
-      font-size: larger;
-      font-weight: bold;
-      max-width: 100%;
       margin: 50px;
-      height: 600px;
       box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
       flex-wrap: nowrap;
-      align-items: flex-start;
+      flex-direction: row;
+      align-items: center;
+    
   
   }
   
@@ -307,13 +300,23 @@ input {
   a{
    margin: 5px;
   }
+  .part1{
+    padding: 10px;
+  }
 
   @media screen and (max-width: 800px){
-    .wrapper{
+ 
+    .body{
+      max-width: 70%;
+      max-height: 70%;
+    }
+    .wrapper {
+      padding: 5px;
+      height: 20px;
       display: flex;
       flex-direction: column;
-      color: #030505;
-    }
+      flex-wrap: wrap;
+  }
     img{
       max-width: 200px;
     }
@@ -444,7 +447,10 @@ input {
     .wrapper {
       padding: 5px;
       height: 20px;
-    }
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
   
     .nav__title {
       font-size: 30px;
@@ -463,9 +469,8 @@ input {
       line-height: 22px;
     }
   
-    h3,
-    a {
-      height: 20px;
+    h3,a , h4 , p{
+      height: 340px;
     }
   
     .footer__contact__info {
@@ -499,8 +504,7 @@ input {
     .block1 {
       font-size: medium;
       max-width: 60%;
-      margin: 30px;
-      height: 400px;
+      
     }
   
     .input-field {

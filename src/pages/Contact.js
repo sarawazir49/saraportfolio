@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import thax from '../images/thax.jpg';
 import ReusableButton from '../Components/Button';
 
-
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -30,8 +29,8 @@ const Contact = () => {
       <h1 className="page-title">Contact Me</h1>
 
       <div className="block1">
-        <form id="contactForm" onSubmit={handleSubmit}>
-          <div className="rectangle1">
+        <div className="rectangle1">
+          <form id="contactForm" onSubmit={handleSubmit}>
             <label htmlFor="fullName" className="label1">
               Full name
             </label>
@@ -80,7 +79,7 @@ const Contact = () => {
               Mobile number
             </label>
             <input
-              type="number"
+              type="tel"
               value={mobileNumber}
               onChange={(event) => setMobileNumber(event.target.value)}
               name="mobileNumber"
@@ -91,11 +90,10 @@ const Contact = () => {
             />
 
             <ReusableButton type="submit">Send contact</ReusableButton>
-          </div>
-        </form>
-
+          </form>
+        </div>
         <div className="rectangle2">
-          <img className="thax" style={{ height: '600px' }} src={thax} alt="thax4conact" />
+          <img className="thax" style={{ height: '600px' }} src={thax} alt="thax4contact" />
         </div>
       </div>
     </>

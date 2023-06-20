@@ -6,7 +6,7 @@ const   Footer= ()=>{
     return  (
 
 
-<div className="footer">
+<div className="foter">
     <div className="footer__contact">
         <p className="footer__contact__info">Email: sarawazir49@gmail.com</p>
         <p className="footer__contact__info">Telephone number: +4673 555 57 77</p>

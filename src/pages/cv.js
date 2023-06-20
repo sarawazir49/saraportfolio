@@ -18,32 +18,32 @@ Hässleholm</h3>
 svenska samt vid användning av IT--utrustning mm.. Översättning av enklare 
 undervisningsmaterial. Planering och implementering av olika förslag för 
 elevernas trygghet och trivsel i skolan.</p>
-
+<br/>
 <h3>Boendestödjare/vårdare, Vinslövshemmet, Vinslöv - Hässleholm</h3>
 <h4>J A N U A R I 2 0 1 5 — O K T O B E R 2 0 1 5</h4>
 <p>Tillsyn och allmän omvårdnad.</p>
-
+<br/>
 <h3>Ansvarig för ekonomi och leverantörsutveckling, Mahmoud Saleh 
 Trading Company, Saida - Libanon</h3>
 <h4>O K T O B E R 2 0 0 7 — M A R S 2 0 1 3 </h4>
 <p>Kontakt med både nationella och internationella leverantörer/fabriker samt 
 ekonomiansvarig för företaget.</p>
-
+<br/>
 <h3>Arkivassistent, Al Jubaily Hospital, Saida - Libanon </h3>
 <h4>J U L I 2 0 0 5 — J U L I 2 0 0 6</h4>
 <p>Dataregistrerare </p>
-
+<br/>
  <h2> Utbildning</h2>
-
+ <br/>
  <h3> IT programming</h3>
  <h4>Sundsgården Folkhögskola </h4>
  <h4>J A N U A R Y  2023 – J U N I 2023</h4>
  <p>Utbildningen ger grundläggande kunskaper i webbutveckling. Vi jobbar delvis i team med 2–4 deltagare i varje team och delvis individuellt. Undervisningen sker oftast i projektform, där merparten av kursen sker på distans. Undervisning varvas med gästföreläsningar samt två fysiska träffar på Sundsgårdens Folkhögskola. Tillsammans lär vi oss om HTML, CSS och JavaScript, där teamen sedan fördjupar sig i de olika delarna inom webbutveckling. Undervisningen bedrivs utifrån ett nybörjarperspektiv. Vi går igenom grunderna kring vad programmering är och vad det kan användas till. Detta följs upp med att vi gradvis använder mer avancerade verktyg. I hög grad söker individen och teamet själv information eftersom det rör sig så snabbt i branschen.
    Kunskap inom programmering är färskvara som förändras och utvecklas ständigt.</p>
-
+   <br/>
  <h3>SFI D-nivå, T4 Skolan Hässleholm, Hässleholm </h3>
 <h4>O K T O B E R 2 0 2 0 — M A R S 2 0 2 1 </h4>
-
+<br/>
 <h3>Studiehandläggare/Elevassistent, Hässleholms kommun, Hässleholm</h3>
 <h4>M A R S 2 0 1 6 — A P R I L 2 0 1 6 </h4>
 
@@ -52,11 +52,11 @@ kartläggningsmaterial för nyanlända och ha ökade kunskaper i
 studiehandledarens roll och arbete och inbegriper b.l.a. värdegrund, 
 likabehandling, pedagogisk planering, systematiskt kvalitetsarbete mm.. </p>
 
-
+<br/>
 <h3>Bachelor of science, The Open University, Beirut - Libanon</h3>
 <h4>2 0 0 7 — 2 0 1 2 </h4>
 <p>Information and communication technologies</p>
-
+<br/>
 <h3>Redovisning oh databehandlng, Lebanese Technical School, Saida -Libanon</h3>
 <h4>2 0 0 4 — 2 0 0 7 </h4>
 </div>

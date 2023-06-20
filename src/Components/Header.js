@@ -12,9 +12,10 @@ const   Header= ()=>{
                     <a href="#menu"> <h3>Scroll down <i className="fa fa-angle-double-down"></i></h3>    
                     </a>
                 </div></div>
+               
                     <section id="menu">
                         <div className="wrapper">
-                            <h3 className="nav__title">SARAD</h3>
+                           
                                 
                         
                                 <nav className="navigation">
