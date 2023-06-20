@@ -311,6 +311,7 @@ input {
   @media screen and (max-width: 800px){
     .menu{
       flex-direction: column;
+      color: #346a79;
     }
 .cv-container{
   display: flex;
