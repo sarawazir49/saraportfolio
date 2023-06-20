@@ -5,10 +5,9 @@ body {
 
 .container1 {
   background-image: url(../images/Sarad.jpg);
- 
-  background-position: center;
-  padding-top: 10px;
-  padding-bottom: 250px;
+ background-repeat: no-repeat;
+  background-position:center;
+ background-size: cover;
 }
 
 .header__title {
@@ -131,7 +130,7 @@ input {
   
   h3, a {
     color: #FFFFFF;
-    height: 29px;
+    
   }
   
   a:hover {
@@ -277,6 +276,7 @@ input {
   
   img {
     width: 400px;
+   
   }
   
   .info1 {
@@ -339,6 +339,7 @@ input {
     display: flex;
     flex-direction: column-reverse;
   max-width: 70%;
+  box-shadow: none;
   }
   
   .container1 {
@@ -469,9 +470,7 @@ input {
       line-height: 22px;
     }
   
-    h3,a , h4 , p{
-      height: 340px;
-    }
+ 
   
     .footer__contact__info {
       font-size: 13px;
@@ -504,7 +503,7 @@ input {
     .block1 {
       font-size: medium;
       max-width: 60%;
-      
+      box-shadow: none;
     }
   
     .input-field {
