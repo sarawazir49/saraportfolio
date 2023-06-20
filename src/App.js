@@ -5,6 +5,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Header from './Components/Header';
 import Footer from './Components/Footer'
+import CV from "./pages/cv";
+
 function App() {
   return (
 
@@ -17,6 +19,7 @@ function App() {
         <Route path = "/" element={<Home />}/>
         <Route path = "/About" exact element={<About />}/>
         <Route path = "/Contact" exact element={<Contact />}/>
+        <Route path = "/Cv" exact element={<CV />}/>
         </Routes>
      
         </div>

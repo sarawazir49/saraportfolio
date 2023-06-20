@@ -6,7 +6,6 @@ const   Footer= ()=>{
     return  (
 
 
-
 <div className="footer">
     <div className="footer__contact">
         <p className="footer__contact__info">Email: sarawazir49@gmail.com</p>

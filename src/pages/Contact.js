@@ -1,6 +1,7 @@
+import React, { useState } from 'react';
 import thax from '../images/thax.jpg';
 import ReusableButton from '../Components/Button';
-import React, { useState } from 'react';
+
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -9,7 +10,7 @@ const Contact = () => {
   const [mobileNumber, setMobileNumber] = useState('');
   const [sentMessages, setSentMessages] = useState([]);
 
-  const toSubmit = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     const newMessage = {
       name: name,
@@ -26,12 +27,12 @@ const Contact = () => {
 
   return (
     <>
-      <h2 className="page-title">Contact Me</h2>
+      <h1 className="page-title">Contact Me</h1>
 
       <div className="block1">
-        <form id="contactForm" onSubmit={toSubmit}>
+        <form id="contactForm" onSubmit={handleSubmit}>
           <div className="rectangle1">
-            <label htmlFor="name" className="label1">
+            <label htmlFor="fullName" className="label1">
               Full name
             </label>
             <input
@@ -46,7 +47,7 @@ const Contact = () => {
               autoFocus
             />
 
-            <label htmlFor="email" className="label2">
+            <label htmlFor="emailAddress" className="label2">
               Email
             </label>
             <input
@@ -75,14 +76,14 @@ const Contact = () => {
               ></textarea>
             </label>
 
-            <label htmlFor="Mobile-no" className="label4">
+            <label htmlFor="mobileNumber" className="label4">
               Mobile number
             </label>
             <input
               type="number"
               value={mobileNumber}
               onChange={(event) => setMobileNumber(event.target.value)}
-              name="Mobile-no"
+              name="mobileNumber"
               id="mobileNumber"
               placeholder="Mobile number"
               className="input-field"

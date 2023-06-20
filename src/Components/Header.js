@@ -26,6 +26,8 @@ const   Header= ()=>{
 
                                        <li className="About">
                                         <Link className='links' to = "/About">About</Link></li>
+                                        <li className="About">
+                                        <Link className='links' to = "/Cv">Cv</Link></li>
                                        
                                        <li className="Contact"><Link className='links'  to = "/Contact">Contact</Link></li>
                                     </ul>

@@ -1,4 +1,5 @@
-import e from"../images/sarawaz.jpg";let Home=()=><>   
+import e from"../images/sarawaz.jpg";
+let Home=()=><>   
 
 <main >
 
