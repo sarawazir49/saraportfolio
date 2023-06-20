@@ -309,12 +309,16 @@ input {
   }
 
   @media screen and (max-width: 800px){
-    .menu{
+    .wrapper{
+      display: flex;
       flex-direction: column;
       color: #030505;
     }
-    .sarawazi{
-      width: 300px;
+    img{
+      max-width: 200px;
+    }
+    a {
+      color: #030505;
     }
 .cv-container{
   display: flex;
@@ -397,7 +401,7 @@ input {
       max-width: 100%;
       min-height: 100%;
     }
-  
+  .img{max-width: 100px;}
     .container1 {
       padding-bottom: 150px;
     }

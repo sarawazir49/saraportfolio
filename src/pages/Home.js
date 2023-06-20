@@ -9,9 +9,10 @@ let Home=()=><>
 
             
 
-        <div >
+        <div className="sarawazi">
 
-          <img className="sarawazi"src={e}alt="Sara Al Wazir"style={{width:"500px"}}/>
+          <img src={e}alt="Sara Al Wazir"style={{width:"300px"}}/>
+        
 
         </div>
 
