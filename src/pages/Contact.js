@@ -96,8 +96,20 @@ const Contact = () => {
           <img className="thax" style={{ height: '600px' }} src={thax} alt="thax4contact" />
         </div>
       </div>
-    </>
-  );
+   
+ <div className='myapps'>
+  <ul>
+            <li><a href="https://Facebook.com"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+            <li><a href="https://Twitter.com"><i class="fa fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://whatsapp.com"><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
+            <li><a href="https://instagram.com"><i class="fa fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://snapchat.com"><i class="fa fa-snapchat"></i> Snapchat</a></li>
+           
+
+                
+        </ul></div>
+         </>
+         );
 };
 
 export default Contact;
