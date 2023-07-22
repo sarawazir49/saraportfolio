@@ -24,17 +24,23 @@ let Home=()=><>
 
             <p >
 
-                Studying IT was one of my dreams and I always think that dreams come true, especially in IT you can achieve every dream, just start to simplify all the information and step by step you will be on another level, going from a small dream to a worldwide project.
+            Absolutely! Studying IT can be an exciting and fulfilling journey, and having a dream and passion for it is a great start. Dreams indeed have the potential to come true, especially in the dynamic field of IT where innovation and opportunities abound.
+<br></br>
 
-                
+Simplifying complex information and taking step-by-step approaches to learning and mastering IT concepts is an excellent strategy. IT is a vast field, and breaking it down into manageable pieces can help you build a solid foundation and progress to more advanced levels.
+<br></br>
 
-                I want to study this course to renew all the information and get all the new updates in IT world. I have not forgotten everything I have learned but If I want to take a step forward and work in this expansive field I need to get a strong start, improve myself and prove to myself and others that I still can do it and that I’m still that strong woman I've always been.
+Continuous learning is crucial in IT as the industry is constantly evolving. Staying updated with new courses and technologies is essential for staying competitive and relevant in the job market. Embracing a lifelong learning mindset will enable you to grow and adapt as the IT world evolves.
+<br></br>
 
+Moreover, passion is indeed a key ingredient for success in any profession, including IT. When you are passionate about what you do, you are more likely to put in the effort, stay committed, and go the extra mile to achieve your goals. Passion can fuel your determination and help you overcome challenges that come your way.
+<br></br>
+Remember, the IT field offers vast opportunities for growth and the potential to turn your small dreams into substantial global projects. Stay motivated, keep learning, and nurture your passion, and you'll be well on your way to a successful and fulfilling career in IT.
                </p>
 
                
 
-               <p > "Passion is one key ingredient of being good in any profession"</p>
+           
 
         </div>
 

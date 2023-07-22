@@ -549,4 +549,8 @@ input {
       margin: 3px;
     }
   }
+  .skills  , .kompetens , .sprak, .korkort , .referenses{
+    display: flex;
+    flex-direction: column;
+  }
   

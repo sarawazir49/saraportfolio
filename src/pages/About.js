@@ -16,21 +16,27 @@ My name is Sara Al Wazir and I'm a 36 years old woman from Lebanon. I came to Sw
 
 
 
-I finished my University studies in ICT” Information Communication Technologies" from the Arab Open University in 2012, but I have not worked in that profession so I have no professional experience in that field and I'm pretty sure a lot has changed in that field since then.
-
+I finished my University studies in ICT” Information Communication Technologies"
+ from the Arab Open University in 2012.
 
 
 </p>
 
 
 
-<p > I got married in 2013 then I traveled to Sweden to live with my husband "Ahmad" and from the very beginning I began to search for a job, but I got no chance to work in what I have trained for at the university, so I worked first for a year as an assistant in a nursing home and then I worked for two and a half years as a teaching assistant for Arab teenagers who have fled the war and destruction and came to Sweden from countries such as Syria and Iraq.
+<p > I got married in 2013 then I traveled to Sweden to live with my husband "Ahmad" and from the 
+    very beginning I began to search for a job, but I got no chance to work in what I have trained 
+    for at the university, so I worked first for a year as an assistant in a nursing home and then 
+    I worked for two and a half years as a teaching assistant for Arab teenagers who have fled the 
+    war and destruction and came to Sweden from countries such as Syria and Iraq.
 
 </p>
 
 
 
-<p >Later I became pregnant and had my first child, a girl, and took parental leave. A whole new life began when I had my first daughter Rima, then I had another daughter who was named Dima and now the latest addition to the family: Adam.
+<p >Later I became pregnant and had my first child, a girl, and took parental leave. 
+    A whole new life began when I had my first daughter Rima, then I had another 
+    daughter who was named Dima and now the latest addition to the family: Adam.
 
 </p>
 
@@ -38,24 +44,28 @@ I finished my University studies in ICT” Information Communication Technologie
 
 <p >
 
-    Every day I’ll be presented with new challenges. I need to know how to figure things out, and if I don’t, I need to learn it on the job. I’m expected to be learning every day and this is awesome as I’m not stagnating in the job market but building up lots of experience as the time passes.
-
+You've captured the essence of being a Future Developer very well! The field of software development is indeed filled with daily challenges and opportunities to learn and grow. Having a positive mindset and embracing continuous learning is crucial for success in this dynamic industry.
 </p>
 
 <p >
 
-    Being required to learn every day can either be frustrating, or very exciting. It all depends on your mindset. Good developers are in high demand. You might not find a job for a top or famous company, but local companies are desperate to find talent. There’s no shortage of opportunities in the foreseeable future, too. On the contrary, there will likely be more demand for developers in the future, to develop new software or maintain an existing one. Remote working, even for just a few days a week, makes for a good work/life balance. It’s not allowed in all the environments, but remote working is a perk that’s very well suited to software development. Software development is one of the jobs that - depending on your responsibilities and how good you are at your job.
-
+The demand for skilled developers is high, and there are plenty of opportunities, even in local companies. With technology continuously evolving, the need for developers is only expected to increase in the future. This opens up a world of possibilities and job security for aspiring developers.
 </p>
 
 <p >  
 
-    It’s not painting or design, but programming is a highly creative profession. Any time you set out to write a program you’re creating something new, much like when you were playing Lego as a child. Many times you experiment with technologies, only to find that’s not a good way, so you choose a different path. Every time you write a new program, you learn something new. It’s never boring unless your job is boring in the first place, but the craft of programming in itself should not be boring - otherwise you always have the option to look for a non-boring job. Even if one might spend 10 hours a day sitting alone with a computer, saying programming is social is perfectly right.
+The flexibility of remote work is a significant advantage in the software development field, allowing for a better work-life balance. While not all environments may support remote work, it's an appealing perk for many developers, and it enhances productivity and job satisfaction.
 
 </p>
+<p >  
+Programming is, indeed, a highly creative profession. Like building with Lego blocks, developers are constantly creating something new with each program they write. The experimentation and problem-solving aspects of programming add to the excitement and continuous learning process.
+</p>
+<p >  
+Even though programming may involve long hours alone with a computer, it is still a social activity. Collaboration, communication, and teamwork are essential in many software development projects. Developers often work together to create innovative solutions and address complex challenges.
+</p><p >  
+In summary, being a Future Developer offers a fulfilling and ever-evolving career with endless possibilities for growth and creativity. Embracing the challenges, staying curious, and having a positive mindset can lead to a successful and rewarding journey in the world of software development.
 
-
-
+</p>
   </div>
 
 

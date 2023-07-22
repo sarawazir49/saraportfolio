@@ -66,7 +66,7 @@ likabehandling, pedagogisk planering, systematiskt kvalitetsarbete mm.. </p>
 <div className='rightside'>
   <section >
     <h2>Skills</h2>
-    <ul>
+    <ul className='skills'>
       <li>HTML5,</li>
       <li>CSS3,</li>
       <li>JavaScript,</li>
@@ -79,7 +79,7 @@ likabehandling, pedagogisk planering, systematiskt kvalitetsarbete mm.. </p>
       <li>Agilt arbete,</li>
     </ul>
     <h2>Kompetens</h2>
-    <ul>
+    <ul className='kompetens'>
       <li>Flexibel</li>
       <li>Social</li>
       <li>Stresstålig</li>
@@ -92,20 +92,21 @@ likabehandling, pedagogisk planering, systematiskt kvalitetsarbete mm.. </p>
       <li>Förmåga att arbeta under press</li>
 </ul>
 <h2>Språk</h2>
-<ul>
+<ul className='sprak'>
 <li>Arabiska : mådersmål </li>
 <li>Engelskaa </li>
 <li>Svenska</li>
 </ul>
 
 <h2>Övrigt</h2>
-<ol>B-körkort</ol>
+<ol className='korkort'>B-körkort</ol>
 
 
 <h2>Referenser</h2>
+<li className='referenses'>
 <ol>Camilla Jönsson </ol>
 <ol>Jacobsskolan Hässleholm</ol>
-<ol>0703-092 046</ol>
+<ol>0703-092 046</ol> </li>
   </section>
   </div>
   </div>
