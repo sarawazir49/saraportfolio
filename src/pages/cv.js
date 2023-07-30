@@ -94,8 +94,8 @@ likabehandling, pedagogisk planering, systematiskt kvalitetsarbete mm.. </p>
 <h2>Språk</h2>
 <ul className='sprak'>
 <li>Arabiska : mådersmål </li>
-<li>Engelskaa </li>
-<li>Svenska</li>
+<li>Engelskaa :70%</li>
+<li>Svenska: 50% </li>
 </ul>
 
 <h2>Övrigt</h2>
