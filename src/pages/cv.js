@@ -44,7 +44,7 @@ ekonomiansvarig för företaget.</p>
  <h3>SFI D-nivå, T4 Skolan Hässleholm, Hässleholm </h3>
 <h4>O K T O B E R 2 0 2 0 — M A R S 2 0 2 1 </h4>
 <br/>
-<h3>Studiehandläggare/Elevassistent, Hässleholms kommun, Hässleholm</h3>
+<h3>Studiehandledare/Elevassistent, Hässleholms kommun, Hässleholm</h3>
 <h4>M A R S 2 0 1 6 — A P R I L 2 0 1 6 </h4>
 
 <p>Kursdeltagarna ska efter fullföljd kurs vara väl förtrogna med 
