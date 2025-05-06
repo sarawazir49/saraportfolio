@@ -12,7 +12,7 @@ let About=()=><div >
 
     
 
-My name is Sara Al Wazir and I'm a 36 years old woman from Lebanon. I came to Sweden in 2013 to start my new life and to build a family here in Sweden. Now I'm a proud mom of three children :)
+My name is Sara Al Wazir and I'm a 39 years old woman from Lebanon. I came to Sweden in 2013 to start my new life and to build a family here in Sweden. Now I'm a proud mom of three children :)
 
 
 
