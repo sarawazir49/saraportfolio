@@ -6,6 +6,38 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append('name', name);
+    formData.append('email', email);
+    formData.append('message', message);
+    formData.append('mobileNumber', mobileNumber);
+
+    try {
+      const response = await fetch('https://formspree.io/f/xpwdlpza', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+        },
+        body: formData,
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setName('');
+        setEmail('');
+        setMessage('');
+        setMobileNumber('');
+      } else {
+        alert('There was an issue submitting your message. Please try again.');
+      }
+    } catch (error) {
+      alert('An error occurred. Please try again later.');
+    }
+  };
 
   return (
     <>
@@ -13,18 +45,14 @@ const Contact = () => {
 
       <div className="block1">
         <div className="rectangle1">
-          <form
-            id="contactForm"
-            action="https://formspree.io/f/xpwdlpza"
-            method="POST"
-          >
+          <form id="contactForm" onSubmit={handleSubmit}>
             <label htmlFor="fullName" className="label1">
               Full name
             </label>
             <input
               type="text"
               value={name}
-              onChange={(event) => setName(event.target.value)}
+              onChange={(e) => setName(e.target.value)}
               name="name"
               id="fullName"
               placeholder="Enter your name"
@@ -39,7 +67,7 @@ const Contact = () => {
             <input
               type="email"
               value={email}
-              onChange={(event) => setEmail(event.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
               name="email"
               id="emailAddress"
               placeholder="Your Email"
@@ -52,7 +80,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 value={message}
-                onChange={(event) => setMessage(event.target.value)}
+                onChange={(e) => setMessage(e.target.value)}
                 cols="40"
                 rows="10"
                 className="textarea"
@@ -68,7 +96,7 @@ const Contact = () => {
             <input
               type="tel"
               value={mobileNumber}
-              onChange={(event) => setMobileNumber(event.target.value)}
+              onChange={(e) => setMobileNumber(e.target.value)}
               name="mobileNumber"
               id="mobileNumber"
               placeholder="Mobile number"
@@ -76,12 +104,18 @@ const Contact = () => {
               required
             />
 
-            {/* Regular Submit Button */}
             <button type="submit" className="submit-button">
               Send contact
             </button>
+
+            {submitted && (
+              <p style={{ marginTop: '10px', color: 'green' }}>
+                Message sent!
+              </p>
+            )}
           </form>
         </div>
+
         <div className="rectangle2">
           <img className="thax" style={{ height: '600px' }} src={thax} alt="thax4contact" />
         </div>
