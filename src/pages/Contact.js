@@ -1,28 +1,11 @@
 import React, { useState } from 'react';
 import thax from '../images/thax.jpg';
-import ReusableButton from '../Components/Button';
 
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
-  const [sentMessages, setSentMessages] = useState([]);
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const newMessage = {
-      name: name,
-      email: email,
-      message: message
-    };
-    setSentMessages([...sentMessages, newMessage]);
-    setName('');
-    setEmail('');
-    setMessage('');
-    const alertMessage = `Thank you for contacting me.\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`;
-    alert(alertMessage);
-  };
 
   return (
     <>
@@ -30,7 +13,11 @@ const Contact = () => {
 
       <div className="block1">
         <div className="rectangle1">
-          <form id="contactForm" onSubmit={handleSubmit}>
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/xpwdlpza"
+            method="POST"
+          >
             <label htmlFor="fullName" className="label1">
               Full name
             </label>
@@ -89,27 +76,28 @@ const Contact = () => {
               required
             />
 
-            <ReusableButton type="submit">Send contact</ReusableButton>
+            {/* Regular Submit Button */}
+            <button type="submit" className="submit-button">
+              Send contact
+            </button>
           </form>
         </div>
         <div className="rectangle2">
           <img className="thax" style={{ height: '600px' }} src={thax} alt="thax4contact" />
         </div>
       </div>
-   
- <div className='myapps'>
-  <ul>
-            <li><a href="https://Facebook.com"><i class="fa fa-facebook-official"></i> Facebook</a></li>
-            <li><a href="https://Twitter.com"><i class="fa fa-twitter"></i> Twitter</a></li>
-            <li><a href="https://whatsapp.com"><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
-            <li><a href="https://instagram.com"><i class="fa fa-instagram"></i> Instagram</a></li>
-            <li><a href="https://snapchat.com"><i class="fa fa-snapchat"></i> Snapchat</a></li>
-           
 
-                
-        </ul></div>
-         </>
-         );
+      <div className="myapps">
+        <ul>
+          <li><a href="https://Facebook.com"><i className="fa fa-facebook-official"></i> Facebook</a></li>
+          <li><a href="https://Twitter.com"><i className="fa fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://whatsapp.com"><i className="fa fa-whatsapp"></i> Whatsapp</a></li>
+          <li><a href="https://instagram.com"><i className="fa fa-instagram"></i> Instagram</a></li>
+          <li><a href="https://snapchat.com"><i className="fa fa-snapchat"></i> Snapchat</a></li>
+        </ul>
+      </div>
+    </>
+  );
 };
 
 export default Contact;
