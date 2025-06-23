@@ -1,5 +1,6 @@
 
 import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -10,7 +11,7 @@ import CV from "./pages/cv";
 function App() {
   return (
 
- <BrowserRouter>
+ <HashRouter>
  <div>
  <Header/>
  </div>
@@ -24,7 +25,7 @@ function App() {
      
         </div>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
   );
 };
 
