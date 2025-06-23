@@ -65,7 +65,7 @@ input {
   box-sizing: border-box;
   color: white;
   width: 95px;
-  background: #346a79;
+  background: #C75B12;
   border: 2px solid #FFFFFF;
 }
 
@@ -83,7 +83,7 @@ input {
 
 .wrapper {
   display: flex;
-  background: #346a79;
+  background:#C75B12;
   justify-content:flex-end;
   padding: 10px;
   height: 30px;
@@ -100,7 +100,7 @@ input {
 .navigation {
   max-width: 100%;
   height: 83px;
-  background: #346a79;
+  background: #C75B12;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -151,7 +151,7 @@ input {
   .footer__contact__info {
     font-family: "Quicksand", sans-serif;
     font-size: 15px;
-    color: #346a79;
+    color: #D99058;
     margin: 20px;
   }
   
@@ -197,7 +197,7 @@ input {
     font-weight: bold;
     background: #adcfd8;
     letter-spacing: 0.1em;
-    color: #346a79;
+    color:#D99058;
     font-style: normal;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -264,7 +264,7 @@ input {
     color: #346a79;
   }
   .page-title {
-    color: #346a79;
+    color: #D99058;
     font-family: "Alkatra", cursive;
     font-size: large;
   }
