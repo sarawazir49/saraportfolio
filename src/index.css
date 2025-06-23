@@ -195,7 +195,7 @@ input {
   .textarea {
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
-    background: #C75B12;
+    background: #D99058;
     letter-spacing: 0.1em;
     color:#D99058;
     font-style: normal;
@@ -233,7 +233,7 @@ input {
     color: #D99058;
     margin-bottom: 10px;
     padding-left: 30px;
-    background: #adcfd8;
+    background: #D99058;
     width: 400px;
     height: 40px;
     border: none;
@@ -241,7 +241,7 @@ input {
   }
   
   button {
-    background: #adcfd8;
+    background: #D99058;
     border-radius: 40px;
     width: 202px;
     height: 48px;
