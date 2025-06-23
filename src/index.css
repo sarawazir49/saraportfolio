@@ -76,7 +76,7 @@ input {
   font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-size: 14px;
-  line-height: 600px;
+  line-height: 200px;
   letter-spacing: 2.8px;
   color: #FFFFFF;
 }
@@ -195,7 +195,7 @@ input {
   .textarea {
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
-    background: #adcfd8;
+    background: #C75B12;
     letter-spacing: 0.1em;
     color:#D99058;
     font-style: normal;
@@ -350,7 +350,7 @@ input {
   }
   
   .container1 {
-    background-image: url(../images/Sarad.jpg);
+    background-image: url(../images/sarad.png);
     background-size: cover;
     background-position: center;
     padding-top: 10px;
@@ -449,7 +449,7 @@ input {
   
     .scroll-down {
       font-size: 12px;
-      line-height: 240px;
+      line-height: 140px;
     }
   
     .wrapper {
