@@ -230,7 +230,7 @@ input {
     font-family: "Quicksand", sans-serif;
     font-style: normal;
     line-height: 21px;
-    color: #346a79;
+    color: #D99058;
     margin-bottom: 10px;
     padding-left: 30px;
     background: #adcfd8;
@@ -260,8 +260,8 @@ input {
   }
   
   button:hover {
-    background-color: #adcfd8;
-    color: #346a79;
+    background-color: #C75B12;
+    color: #D99058;
   }
   .page-title {
     color: #D99058;
