@@ -37,13 +37,13 @@ ekonomiansvarig för företaget.</p>
  <br/>
  <h3>Praktik – IT-avdelningen, Hässleholms kommun</h3>
 <h4>F E B R U A R I 2 0 2 5 — M A J 2 0 2 5 </h4>
-<p>Min praktik var uppdelad i två delar inom IT-avdelningen:
+<p>Min praktik var uppdelad i två delar inom IT-avdelningen</p>:
 
-Hårdvaruteknik:
+<p>Hårdvaruteknik:
 Jag deltog i arbete med installation, underhåll och felsökning av hårdvara för skolor inom Hässleholms kommun.
-Jag fick praktisk erfarenhet av nätverk, datorer och annan teknisk utrustning som används i skolmiljö.
+Jag fick praktisk erfarenhet av nätverk, datorer och annan teknisk utrustning som används i skolmiljö.</p>
 
-Digitalisering & e-tjänster:
+<p>Digitalisering & e-tjänster:
 Jag medverkade i digitaliseringsprojekt där jag lärde mig konvertera pappersbaserade ansökningar till digitala e-tjänster via kommunens e-tjänsteportal.
 Jag skapade också användarguider för att hjälpa kommuninvånare att lättare förstå och använda de digitala verktyg och program som kommunen erbjuder.
 
