@@ -11,7 +11,7 @@ import CV from "./pages/cv";
 function App() {
   return (
 
- <HashRouter>
+ <BrowserRouter>
  <div>
  <Header/>
  </div>
@@ -25,7 +25,7 @@ function App() {
      
         </div>
         <Footer/>
-      </HashRouter>
+      </BrowserRouter>
   );
 };
 
