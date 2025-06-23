@@ -37,7 +37,7 @@ ekonomiansvarig för företaget.</p>
  <br/>
  <h3>Praktik – IT-avdelningen, Hässleholms kommun</h3>
 <h4>F E B R U A R I 2 0 2 5 — M A J 2 0 2 5 </h4>
-<p>Min praktik var uppdelad i två delar inom IT-avdelningen</p>:
+<p>Min praktik var uppdelad i två delar inom IT-avdelningen:</p>
 
 <p>Hårdvaruteknik:
 Jag deltog i arbete med installation, underhåll och felsökning av hårdvara för skolor inom Hässleholms kommun.
