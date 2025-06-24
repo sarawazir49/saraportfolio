@@ -159,6 +159,7 @@ let CV = () => {
             font-size: 1.2rem;
             font-weight: 600;
             margin-top: 1rem;
+            color: #2563eb;
           }
 
           h4 {
