@@ -1,27 +1,82 @@
-.cv-container{
-  display: flex;
-  font-family:"Quicksand", sans-serif;
-  color:black;
-  margin: 5px;
-  padding: 10px;}
 
-  .cv-container h3 {
-    color: rgb(19, 20, 20);
-    font-family:"Quicksand", sans-serif;
-  }
-  .cv-container h4 {
-    color: rgb(48, 56, 56);
-    font-family: "Quicksand", sans-serif;
-  }
-  .cv-container p {
-    color: #D99058;
-    font-family: "Quicksand", sans-serif;
-  }
+  
+          .cv-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 2rem;
+            font-family: Arial, sans-serif;
+            background: #f7f9fa;
+            color: #333;
+          }
 
-.rightside{
-  background-color: #C75B12;
-  font-family: "Quicksand", sans-serif;
-  color: white;
- margin: 5px;
- padding: 10px;
-}
+          @media (min-width: 768px) {
+            .cv-container {
+              flex-direction: row;
+              justify-content: space-between;
+            }
+          }
+
+          .ae, .rightside {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+          }
+
+          .ae {
+            flex: 3;
+          }
+
+          .rightside {
+            flex: 1.5;
+          }
+
+          h1 {
+            font-size: 2.5rem;
+            color: #1e3a8a;
+            margin-bottom: 1rem;
+          }
+
+          h2 {
+            font-size: 1.8rem;
+            color: #2563eb;
+            margin-top: 2rem;
+          }
+
+          h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 1rem;
+            color:rgb(143, 174, 240);
+          }
+
+          h4 {
+            font-size: 1rem;
+            font-style: italic;
+            color: #666;
+          }
+
+          p {
+            line-height: 1.6;
+            font-size: 1rem;
+          }
+
+          ul {
+            list-style: disc;
+            margin-left: 1.5rem;
+          }
+
+          .skills, .kompetens, .sprak {
+            margin-bottom: 1rem;
+          }
+
+          .korkort {
+            font-weight: bold;
+            margin: 0.5rem 0;
+          }
+
+          .referens p {
+            margin: 0.2rem 0;
+          }
+ 

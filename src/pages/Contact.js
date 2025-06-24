@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import thax from '../images/thax.jpg';
-
+import 'contact.css';
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

@@ -1,0 +1,136 @@
+/* General layout */
+.page-title {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Contact form and image container */
+.block1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+/* Form section */
+.rectangle1 {
+  flex: 1 1 450px;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label1,
+.label2,
+.label4,
+.label--large {
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: #444;
+}
+
+.input-field,
+.textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  resize: none;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus,
+.textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Image section */
+.rectangle2 {
+  flex: 1 1 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle2 img.thax {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Social links */
+.myapps {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #f7f7f7;
+  padding: 20px 0;
+}
+
+.myapps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.myapps li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.myapps li a:hover {
+  color: #007bff;
+}
+
+.myapps i {
+  margin-right: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .block1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rectangle1,
+  .rectangle2 {
+    max-width: 90%;
+  }
+}
