@@ -72,6 +72,8 @@ form {
 .textarea {
   resize: vertical;
   min-height: 120px;
+      color: #501c65;
+
 }
 
 /* === Submit Button === */
