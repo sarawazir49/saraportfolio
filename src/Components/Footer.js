@@ -6,33 +6,31 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section about">
-          <h3>About Us</h3>
-          <p>We help you master safe driving with professional instructors and modern tools. Your road safety is our priority.</p>
+          <h3>About me</h3>
+          <p>I'm a passionate web developer specializing in building responsive, user-friendly websites using modern technologies. I focus on creating clean, efficient code to deliver seamless digital experiences.</p>
         </div>
 
         <div className="footer-section links">
           <h3>Quick Links</h3>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/team">Our Team</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/">Contact</a></li>
           </ul>
         </div>
 
         <div className="footer-section social">
-          <h3>Follow Us</h3>
+          <h3>Follow Me</h3>
           <div className="social-icons">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
-            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/sara.a.wazir" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+     
+            <a href="https://www.instagram.com/sara_al_wazir/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
+            <a href="https://wa.me/+46735555777" target="_blank" rel="noopener noreferrer"><i className="fa fa-whatsapp"></i></a>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} Driving School | All Rights Reserved
+        &copy; {new Date().getFullYear()} Sara Al wazir | All Rights Reserved
       </div>
     </footer>
   );
