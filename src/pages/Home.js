@@ -1,6 +1,6 @@
 import e from "../images/sarawaz.jpg";
 
-let Home = () => (
+const Home = () => (
   <>
     <main className="home-container">
       <div className="part1">
@@ -14,7 +14,6 @@ let Home = () => (
 
         <div className="info1">
           <h1 className="title">Studying IT</h1>
-
           <p className="paragraph">
             Absolutely! Studying IT can be an exciting and fulfilling journey, and having a dream and passion for it is a great start.
             Dreams indeed have the potential to come true, especially in the dynamic field of IT where innovation and opportunities abound.
@@ -30,12 +29,12 @@ let Home = () => (
         </div>
       </div>
 
-      {/* Embedded CSS Styling */}
+      {/* Mobile-Responsive Styling */}
       <style>
         {`
           .home-container {
             background-color: #f9fafb;
-            padding: 2rem;
+            padding: 1rem;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #333;
           }
@@ -43,43 +42,57 @@ let Home = () => (
           .part1 {
             display: flex;
             flex-direction: column;
+            gap: 1.5rem;
             align-items: center;
-            gap: 2rem;
           }
 
           @media (min-width: 768px) {
             .part1 {
               flex-direction: row;
               align-items: flex-start;
+              justify-content: center;
+              gap: 2rem;
             }
           }
 
-          .sarawazi {
-            flex-shrink: 0;
-          }
-
           .profile-img {
-            width: 300px;
+            width: 100%;
+            max-width: 300px;
             height: auto;
             border-radius: 20px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
           }
 
           .info1 {
-            max-width: 700px;
-            padding: 1rem;
+            padding: 0.5rem;
+            max-width: 100%;
           }
 
           .title {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: bold;
             color: #1e3a8a;
             margin-bottom: 1rem;
+            text-align: center;
+          }
+
+          @media (min-width: 768px) {
+            .title {
+              text-align: left;
+              font-size: 2.5rem;
+            }
           }
 
           .paragraph {
-            font-size: 1.1rem;
-            line-height: 1.7;
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: justify;
+          }
+
+          @media (min-width: 768px) {
+            .paragraph {
+              font-size: 1.1rem;
+            }
           }
         `}
       </style>
