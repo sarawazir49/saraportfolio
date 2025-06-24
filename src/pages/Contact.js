@@ -124,10 +124,10 @@ const Contact = () => {
       <div className="myapps">
         <ul>
           <li><a href="https://Facebook.com"><i className="fa fa-facebook-official"></i> Facebook</a></li>
-          <li><a href="https://Twitter.com"><i className="fa fa-twitter"></i> Twitter</a></li>
-          <li><a href="https://whatsapp.com"><i className="fa fa-whatsapp"></i> Whatsapp</a></li>
+    
+          <li><a href="https://wa.me/+46735555777"><i className="fa fa-whatsapp"></i> Whatsapp</a></li>
           <li><a href="https://instagram.com"><i className="fa fa-instagram"></i> Instagram</a></li>
-          <li><a href="https://snapchat.com"><i className="fa fa-snapchat"></i> Snapchat</a></li>
+          <li><a href="https://snapchat.com/add/s_was2004"><i className="fa fa-snapchat"></i> Snapchat</a></li>
         </ul>
       </div>
     </>
