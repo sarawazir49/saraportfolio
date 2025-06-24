@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css'; // Link to the CSS below
-
+import Contact from './pages/Contact';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -12,9 +12,9 @@ const Footer = () => {
 
         <div className="footer-section links">
           <h3>Quick Links</h3>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/Contact">Contact</a></li>
+        <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
 
