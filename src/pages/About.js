@@ -3,50 +3,61 @@ import futureDevImg from '../images/futureDev.jpeg';
 import teamworkImg from '../images/teamwork.jpg';
 
 const About = () => (
-  <div className="about-container p-6 max-w-4xl mx-auto text-gray-800">
-    <main className="space-y-10">
+  <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-4xl mx-auto text-gray-800 space-y-16">
+      
       {/* Who is Sara Section */}
-      <section className="space-y-4">
-        <h1 className="text-3xl font-bold text-blue-700">Who is Sara?</h1>
+      <section className="space-y-6">
+        <h2 className="text-4xl font-bold text-blue-800 text-center">Who is Sara?</h2>
         <img
           src={myKidsImg}
           alt="Sara's family"
-          className="w-full max-w-md mx-auto rounded-2xl shadow-md"
+          className="w-full max-w-md mx-auto rounded-2xl shadow-lg"
         />
-        <p>
-          I'm Sara Al Wazir, 39 years old, originally from Lebanon. I moved to Sweden in 2013 to start a new chapter and build a family. I'm now a proud mom of three wonderful kids: Rima, Dima, and Adam.
-        </p>
-        <p>
-          I graduated with a degree in ICT from the Arab Open University in 2012. After moving to Sweden, I worked in elderly care and later as a teaching assistant for refugee teenagers.
-        </p>
+        <div className="text-lg leading-relaxed text-center sm:text-left space-y-4">
+          <p>
+            I'm Sara Al Wazir, a 39-year-old from Lebanon. I moved to Sweden in 2013 to start a new life and raise a family. I'm now a proud mom of three: Rima, Dima, and Adam.
+          </p>
+          <p>
+            I earned a degree in ICT from the Arab Open University in 2012. In Sweden, I first worked in elderly care, then supported refugee teens as a teaching assistant.
+          </p>
+        </div>
       </section>
 
       {/* Future Developer Section */}
-      <section className="space-y-4">
+      <section className="space-y-6">
+        <h2 className="text-4xl font-bold text-green-700 text-center">Future Developer</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <img
             src={futureDevImg}
             alt="Coding concept"
-            className="w-full md:w-1/2 rounded-2xl shadow-md"
+            className="w-full h-64 object-cover rounded-xl shadow-md"
           />
           <img
             src={teamworkImg}
             alt="Developer collaboration"
-            className="w-full md:w-1/2 rounded-2xl shadow-md"
+            className="w-full h-64 object-cover rounded-xl shadow-md"
           />
-        <p>
-          I'm passionate about becoming a developer. It's a field full of creativity, problem-solving, and continuous learning.
-        </p>
-        <p>
-          There’s a growing demand for developers, with many opportunities and the benefit of remote work for better work-life balance.
-        </p>
-        <p>
-          Programming isn’t just technical—it’s also social. Collaboration and teamwork are key parts of building great software.
-        </p>
-        <p>
-          I'm excited for the journey ahead and motivated to grow in this rewarding and dynamic career path.
-        </p>
+        </div>
+
+        <div className="text-lg leading-relaxed space-y-4 mt-4">
+          <p>
+            I'm passionate about becoming a developer—it's a field full of creativity, challenges, and lifelong learning.
+          </p>
+          <p>
+            The demand for developers is rising. I’m excited by the flexibility it offers, including remote work and a great work-life balance.
+          </p>
+          <p>
+            Programming isn’t just about code—it's about collaboration and building solutions together.
+          </p>
+          <p>
+            I’m motivated to grow and contribute to this dynamic and rewarding industry.
+          </p>
+        </div>
       </section>
-    </main>
+
+    </div>
   </div>
 );
 
