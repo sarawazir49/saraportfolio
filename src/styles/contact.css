@@ -1,29 +1,39 @@
-/* General layout */
-.page-title {
-  text-align: center;
-  margin: 40px 0 20px;
-  font-size: 36px;
-  font-weight: bold;
-  color: #333;
+/* === Global Styles === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #222;
 }
 
-/* Contact form and image container */
+/* === Page Title === */
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #0078d4;
+  font-weight: 700;
+}
+
+/* === Layout === */
 .block1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 40px 20px;
   gap: 40px;
-  padding: 20px;
 }
 
-/* Form section */
+/* === Form Box === */
 .rectangle1 {
-  flex: 1 1 450px;
+  flex: 1;
+  min-width: 300px;
   max-width: 600px;
+  background: white;
   padding: 30px;
-  background-color: #f3f3f3;
-  border-radius: 10px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -35,102 +45,120 @@ form {
 .label2,
 .label4,
 .label--large {
-  font-weight: 600;
-  margin-bottom: 5px;
-  margin-top: 15px;
-  color: #444;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  color: #333;
 }
 
 .input-field,
 .textarea {
   padding: 12px;
-  border: 1px solid #ccc;
   border-radius: 8px;
+  border: 1px solid #ccc;
   font-size: 16px;
+  transition: all 0.3s ease;
   width: 100%;
-  resize: none;
-  transition: border-color 0.3s;
+  box-sizing: border-box;
 }
 
 .input-field:focus,
 .textarea:focus {
-  border-color: #007bff;
   outline: none;
+  border-color: #0078d4;
+  box-shadow: 0 0 5px rgba(0, 120, 212, 0.3);
 }
 
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* === Submit Button === */
 .submit-button {
   margin-top: 20px;
   padding: 12px;
-  background-color: #007bff;
+  background: #0078d4;
   color: white;
   font-size: 18px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 .submit-button:hover {
-  background-color: #0056b3;
+  background: #005ea6;
 }
 
-/* Image section */
+/* === Image Box === */
 .rectangle2 {
-  flex: 1 1 350px;
+  flex: 1;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  max-width: 500px;
 }
 
 .rectangle2 img.thax {
   width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 10px;
+  max-height: 500px;
+  border-radius: 12px;
   object-fit: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Social links */
+/* === Social Links === */
 .myapps {
-  text-align: center;
+  background-color: #fff;
+  padding: 30px 0;
   margin-top: 40px;
-  background-color: #f7f7f7;
-  padding: 20px 0;
+  border-top: 1px solid #ddd;
 }
 
 .myapps ul {
   list-style: none;
-  padding: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 25px;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
 }
 
 .myapps li a {
   text-decoration: none;
-  color: #333;
+  color: #444;
   font-size: 18px;
-  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
 }
 
 .myapps li a:hover {
-  color: #007bff;
+  color: #0078d4;
 }
 
 .myapps i {
   margin-right: 8px;
+  font-size: 20px;
 }
 
-/* Responsive */
+/* === Responsive === */
 @media (max-width: 768px) {
   .block1 {
     flex-direction: column;
     align-items: center;
+    padding: 20px;
   }
 
   .rectangle1,
   .rectangle2 {
+    width: 100%;
     max-width: 90%;
+  }
+
+  .page-title {
+    font-size: 2rem;
   }
 }
