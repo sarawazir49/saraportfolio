@@ -18,22 +18,22 @@ const   Header= ()=>{
                            
                                 
                         
-                                <nav className="navigation">
-                                    <ul className="menu">
-                                       <li className="Home">
-                                        <Link className='links' to = "/">Home</Link>
-                                       
-                                       </li>
-
-                                       <li className="About">
-                                        <Link className='links' to = "/About">About</Link></li>
-                                        <li className="About">
-                                        <Link className='links' to = "/Cv">Cv</Link></li>
-                                       
-                                       <li className="Contact"><Link className='links'  to = "/Contact">Contact</Link></li>
-                                    </ul>
-                
-                                </nav>
+                     <nav className="navigation">
+        <ul className="menu">
+          <li className="Home">
+            <Link className="links" to="/">Home</Link>
+          </li>
+          <li className="About">
+            <Link className="links" to="/about">About</Link>
+          </li>
+          <li className="Cv">
+            <Link className="links" to="/cv">Cv</Link>
+          </li>
+          <li className="Contact">
+            <Link className="links" to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
                             </div>
                         
                     </section>
