@@ -23,7 +23,7 @@ const Footer = () => {
           <h3>Follow Me</h3>
           <div className="social-icons">
             <a href="https://www.facebook.com/sara.a.wazir" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
-             <a href="https://snapchat.com/add/s_was2004"><i className="fa fa-snapchat"></i> </a>
+             <a href="https://snapchat.com/add/s_was2004"><i className="fa fa-snapchat"></i></a>
             <a href="https://www.instagram.com/sara_al_wazir/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
             <a href="https://wa.me/+46735555777" target="_blank" rel="noopener noreferrer"><i className="fa fa-whatsapp"></i></a>
           </div>
