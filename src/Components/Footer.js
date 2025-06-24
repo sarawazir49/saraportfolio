@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Footer.css'; // Link to the CSS below
 import { Link } from 'react-router-dom';
-import Contact from '../pages/Contact';
+
 const Footer = () => {
   return (
     <footer className="footer">
