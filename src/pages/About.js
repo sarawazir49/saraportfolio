@@ -10,7 +10,7 @@ const About = () => (
         <h1 className="text-3xl font-bold text-blue-700">Who is Sara?</h1>
         <img
           src={myKidsImg}
-          alt="Sara and her family"
+          alt="Sara's family"
           className="w-full max-w-md mx-auto rounded-2xl shadow-md"
         />
         <p>
