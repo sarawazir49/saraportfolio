@@ -3,18 +3,18 @@ import futureDevImg from '../images/futureDev.jpeg';
 import teamworkImg from '../images/teamwork.jpg';
 
 const About = () => (
-  <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
-    <div className="max-w-4xl mx-auto text-gray-800 space-y-16">
+  <div className="about-container">
+    <div className="about-content">
       
       {/* Who is Sara Section */}
-      <section className="space-y-6">
-        <h2 className="text-4xl font-bold text-blue-800 text-center">Who is Sara?</h2>
+      <section className="about-section">
+        <h2 className="section-title">Who is Sara?</h2>
         <img
           src={myKidsImg}
           alt="Sara's family"
-          className="w-full max-w-md mx-auto rounded-2xl shadow-lg"
+          className="about-image"
         />
-        <div className="text-lg leading-relaxed text-center sm:text-left space-y-4">
+        <div className="about-text">
           <p>
             I'm Sara Al Wazir, a 39-year-old from Lebanon. I moved to Sweden in 2013 to start a new life and raise a family. I'm now a proud mom of three: Rima, Dima, and Adam.
           </p>
@@ -25,23 +25,22 @@ const About = () => (
       </section>
 
       {/* Future Developer Section */}
-      <section className="space-y-6">
-        <h2 className="text-4xl font-bold text-green-700 text-center">Future Developer</h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <section className="about-section">
+        <h2 className="section-title section-green">Future Developer</h2>
+        <div className="image-grid">
           <img
             src={futureDevImg}
             alt="Coding concept"
-            className="w-full h-64 object-cover rounded-xl shadow-md"
+            className="about-image"
           />
           <img
             src={teamworkImg}
             alt="Developer collaboration"
-            className="w-full h-64 object-cover rounded-xl shadow-md"
+            className="about-image"
           />
         </div>
 
-        <div className="text-lg leading-relaxed space-y-4 mt-4">
+        <div className="about-text">
           <p>
             I'm passionate about becoming a developer—it's a field full of creativity, challenges, and lifelong learning.
           </p>
@@ -56,8 +55,72 @@ const About = () => (
           </p>
         </div>
       </section>
-
     </div>
+
+    {/* Embedded CSS for the design */}
+    <style>
+      {`
+        .about-container {
+          background-color: #fff;
+          padding: 3rem 1rem;
+          color: #333;
+          font-family: Arial, sans-serif;
+        }
+
+        .about-content {
+          max-width: 900px;
+          margin: 0 auto;
+        }
+
+        .about-section {
+          margin-bottom: 4rem;
+        }
+
+        .section-title {
+          font-size: 2rem;
+          font-weight: bold;
+          color: #1e40af;
+          text-align: center;
+          margin-bottom: 1.5rem;
+        }
+
+        .section-green {
+          color: #047857;
+        }
+
+        .about-image {
+          width: 100%;
+          max-width: 400px;
+          height: auto;
+          border-radius: 16px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          display: block;
+          margin: 0 auto 1.5rem auto;
+        }
+
+        .image-grid {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+
+        @media (min-width: 768px) {
+          .image-grid {
+            flex-direction: row;
+          }
+        }
+
+        .about-text {
+          font-size: 1.1rem;
+          line-height: 1.7;
+          padding: 0 1rem;
+        }
+
+        .about-text p {
+          margin-bottom: 1rem;
+        }
+      `}
+    </style>
   </div>
 );
 
