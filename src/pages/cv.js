@@ -1,3 +1,4 @@
+import '../styles/cvstyle.css';
 let CV = () => {
   return (
     <>
