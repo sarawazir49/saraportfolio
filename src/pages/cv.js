@@ -31,7 +31,7 @@ let CV = () => {
           <br />
 
           <h3>Praktik – IT-Avdelningen, Hässleholms kommun</h3>
-          <h4>FEBRUARI 2025 — MAJ 2025</h4>
+          <h4>FEBRUARI 2025 — Juli 2025</h4>
           <p>
             Praktisk erfarenhet av hårdvara och digitalisering. Medverkade i e-tjänsteprojekt och skapade guider.
           </p>
