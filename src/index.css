@@ -355,13 +355,7 @@ input {
   box-shadow: none;
   }
   
-  .container1 {
-    background-image: url(../images/sarad.png);
-    background-size: cover;
-    background-position: center;
-    padding-top: 10px;
-    padding-bottom: 250px;
-  }
+  
   
   .header__title {
     font-family: "Alkatra", cursive;
