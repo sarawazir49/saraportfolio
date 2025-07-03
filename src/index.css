@@ -280,9 +280,7 @@ img {
     flex-wrap: wrap;
   }
 
-  img {
-    max-width: 200px;
-  }
+
 
   .cv-container {
     display: flex;
