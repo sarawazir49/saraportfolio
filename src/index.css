@@ -303,7 +303,8 @@ img {
   }
 
   .container1 {
-    padding-bottom: 150px;
+    padding-bottom: 15px;
+    background-color: #0a1432;
   }
 
   .header__title {
@@ -338,7 +339,7 @@ img {
 
   .scroll-down {
     font-size: 12px;
-    line-height: 140px;
+ 
   }
 
   .nav__title {
