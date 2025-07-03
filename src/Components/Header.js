@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container1">
         {/* ✅ Image at the top */}
         <img
-          src="../images/sarad.png" // adjust the path
+          src={sarad}
           alt="Top Banner"
           className="top-image"
         />
