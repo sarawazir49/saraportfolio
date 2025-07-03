@@ -75,17 +75,20 @@ input {
   border: 2px solid #FFFFFF;
 }
 
-.scroll-down {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Quicksand", sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 300px;
-  letter-spacing: 2.8px;
-  color: #FFFFFF;
+.hero {
+  position: relative;
+  /* background-image, height, etc. */
 }
+
+.scroll-down {
+  position: absolute;
+  bottom: 40px; /* move up/down from bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  color: lightblue;
+  text-decoration: none;
+}
+
 
 .wrapper {
   display: flex;
