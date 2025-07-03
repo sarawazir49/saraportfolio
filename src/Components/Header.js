@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import sarad from '../images/sarad.jpg';
+import sarad from '../images/sarad.png';
 const Header = () => {
   return (
     <header>
       <div className="container1">
         {/* ✅ Image at the top */}
         <img
-          src="../images/sarad.jpg" // adjust the path
+          src="../images/sarad.png" // adjust the path
           alt="Top Banner"
           className="top-image"
         />
