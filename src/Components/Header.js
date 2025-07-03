@@ -6,7 +6,7 @@ const   Header= ()=>{
       <div className="container1">
         <div className="scroll-down">
           <a href="#menu">
-            <h3>
+            <h3 className='scroll-down-text'>
               Scroll down <i className="fa fa-angle-double-down"></i>
             </h3>
           </a>
