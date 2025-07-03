@@ -4,10 +4,13 @@ const   Header= ()=>{
     return  (
     <header>
       <div className="container1">
- <div class="hero">
-  <h1>SARAD</h1>
-  <a href="#section2" class="scroll-down">Scroll down ↓</a>
-</div>
+        <div className="scroll-down">
+          <a href="#menu">
+            <h3>
+              Scroll down <i className="fa fa-angle-double-down"></i>
+            </h3>
+          </a>
+        </div>
       </div>
       <section id="menu">
         <div className="wrapper">
