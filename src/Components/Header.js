@@ -1,17 +1,25 @@
-import {Link} from 'react-router-dom';
-
-const   Header= ()=>{
-    return  (
+import { Link } from 'react-router-dom';
+import sarad from '../images/sarad.jpg';
+const Header = () => {
+  return (
     <header>
       <div className="container1">
+        {/* ✅ Image at the top */}
+        <img
+          src="../images/sarad.jpg" // adjust the path
+          alt="Top Banner"
+          className="top-image"
+        />
+
         <div className="scroll-down">
           <a href="#menu">
-            <h3 className='scroll-down-text'>
+            <h3 className="scroll-down-text">
               Scroll down <i className="fa fa-angle-double-down"></i>
             </h3>
           </a>
         </div>
       </div>
+
       <section id="menu">
         <div className="wrapper">
           <nav className="navigation">
@@ -33,7 +41,7 @@ const   Header= ()=>{
         </div>
       </section>
     </header>
-        );
+  );
 };
 
 export default Header;
