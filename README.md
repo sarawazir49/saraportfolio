@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Sara Al Wazir Hadidi - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio website built with React. Showcases my CV, work experience, education, skills, and contact form.
 
-## Available Scripts
+**Live Demo:** https://sarad.netlify.app/cv
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- **CV Page** - Full Curriculum Vitae with work experience, education, skills, and references
+- **Download CV as PDF** - One-click PDF download using html2pdf.js
+- **Contact Form** - Working contact form connected to Formspree
+- **Responsive Design** - Works on mobile, tablet, and desktop
+- **Routing** - Multi-page navigation with React Router
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React** 18.2.0
+- **React Router DOM** 6.10.0 - For navigation
+- **React Scripts** 5.0.1 - Create React App
+- **html2pdf.js** 0.14.0 - For PDF download
+- **React Icons** 4.8.0
+- **Formspree** - For contact form handling
+- **CSS3** - Custom styling, no framework
 
-### `npm test`
+## 📁 Project Structure
+saraportfolio/
+├── public/
+│   └── index.html
+├── src/
+│   ├── pages/
+│   │   ├── cv.js          # CV page
+│   │   └── contact.js     # Contact page
+│   ├── styles/
+│   │   ├── cvstyle.css
+│   │   └── contact.css
+│   ├── images/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🚀 How to Run
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Install dependencies
+```bash
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Start development serverbashnpm startOpen http://localhost:3000 in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Build for productionbash
+npm run build
 
-### `npm run eject`
+📄 CV Highlights
+Systemutvecklare - Lexicon Syd (2026 - 2027) - Distance learning
+Praktik IT-Avdelningen - Hässleholms Kommun (2025)
+IT Programming - Sundsgården Folkhögskola (2023)
+Bachelor of Science - The Open University, Beirut - ICT
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📬 Contact
+Portfolio: https://sarad.netlify.app/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👩‍💻 Author
+Sara Al Wazir Hadidi
+Systemutvecklare student at Lexicon Syd
+ Sweden
