@@ -60,7 +60,8 @@ npm install
 
 2. Start development serverbashnpm startOpen http://localhost:3000 in your browser.
 
-3. Build for productionbash
+3. Build for production
+bash
 npm run build
 
 📄 CV Highlights
