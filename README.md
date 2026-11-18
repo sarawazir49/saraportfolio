@@ -6,9 +6,11 @@ Personal portfolio website built with React. Showcases my CV, work experience, e
 
 ## ✨ Features
 
+- **Home Page** - Introduction and overview of my portfolio
+- **About Page** - More about me, my background and goals
 - **CV Page** - Full Curriculum Vitae with work experience, education, skills, and references
 - **Download CV as PDF** - One-click PDF download using html2pdf.js
-- **Contact Form** - Working contact form connected to Formspree
+- **Contact Page** - Working contact form connected to Formspree
 - **Responsive Design** - Works on mobile, tablet, and desktop
 - **Routing** - Multi-page navigation with React Router
 
@@ -27,16 +29,26 @@ saraportfolio/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── pages/
-│   │   ├── cv.js          # CV page
-│   │   └── contact.js     # Contact page
-│   ├── styles/
-│   │   ├── cvstyle.css
-│   │   └── contact.css
+│   ├── Components/
 │   ├── images/
+│   ├── pages/
+│   │   ├── About.js       # About page
+│   │   ├── Contact.js     # Contact page
+│   │   ├── cv.js          # CV page
+│   │   └── Home.js        # Home page
+│   ├── styles/
+│   │   ├── contact.css
+│   │   ├── cvstyle.css
+│   │   └── Footer.css
 │   ├── App.js
-│   └── index.js
+│   ├── index.css
+│   ├── index.js
+│   └── reportWebVitals.js
+├── .env
+├── .gitignore
+├── normalize.css
 ├── package.json
+├── package-lock.json
 └── README.md
 
 
