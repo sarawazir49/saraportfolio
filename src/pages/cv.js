@@ -1,8 +1,25 @@
 import '../styles/cvstyle.css';
+import html2pdf from 'html2pdf.js';
+
 let CV = () => {
+  const downloadCV = () => {
+    const element = document.getElementById('cv-to-download');
+    const opt = {
+      margin: 0.3,
+      filename: 'Sara-Al-Wazir-CV.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, useCORS: true },
+      jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
+      pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+    };
+    html2pdf().set(opt).from(element).save();
+  };
+
   return (
     <>
-      <div className="cv-container">
+      
+
+      <div className="cv-container" id="cv-to-download">
         <div className="ae">
           <h1>Curriculum Vitae</h1>
           <h2>Arbetslivserfarenhet</h2>
@@ -29,6 +46,12 @@ let CV = () => {
           <br />
           <h2>Utbildning</h2>
           <br />
+              <h3>systemutvecklare på Lexicon Syd</h3>
+          <h4>Oktober 2026 — Juli 2027</h4>
+          <p>
+                Currently studying Systemutvecklare at Lexicon Syd via distance learning, 
+    focusing on software development, programming, and building modern web applications.
+          </p>
 
           <h3>Praktik – IT-Avdelningen, Hässleholms kommun</h3>
           <h4>FEBRUARI 2025 — Juli 2025</h4>
@@ -105,10 +128,20 @@ let CV = () => {
               <p>Jacobsskolan Hässleholm</p>
               <p>0703-092 046</p>
             </div>
+            <div className="referens">
+             <p>John Palmqvist</p>
+              <p>Chef IT-avdelningen, Hässleholms Kommun</p>
+              <p>0709-710 032</p>
+</div>
           </section>
         </div>
+        
       </div>
-
+<div style={{ textAlign: 'center', margin: '20px 0 50px', width: '100%' }}>
+        <button onClick={downloadCV} className="download-btn">
+          Download CV as PDF
+        </button>
+      </div>
     </>
   );
 };

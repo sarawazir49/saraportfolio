@@ -1,82 +1,38 @@
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background: white;
+}
 
-  
-          .cv-container {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            padding: 2rem;
-            font-family: Arial, sans-serif;
-            background: #f7f9fa;
-            color: #333;
-          }
+.education-item, .referens {
+  margin-bottom: 20px;
+}
 
-          @media (min-width: 768px) {
-            .cv-container {
-              flex-direction: row;
-              justify-content: space-between;
-            }
-          }
+.school {
+  color: #555;
+}
 
-          .ae, .rightside {
-            background: #fff;
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-          }
+.year {
+  color: #888;
+}
 
-          .ae {
-            flex: 3;
-          }
+.download-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+  width: auto;
+  min-width: 280px;
+  display: inline-block;
+}
 
-          .rightside {
-            flex: 1.5;
-          }
-
-          h1 {
-            font-size: 2.5rem;
-            color: #1e3a8a;
-            margin-bottom: 1rem;
-          }
-
-          h2 {
-            font-size: 1.8rem;
-            color: #2563eb;
-            margin-top: 2rem;
-          }
-
-          h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-top: 1rem;
-            color:rgb(143, 174, 240);
-          }
-
-          h4 {
-            font-size: 1rem;
-            font-style: italic;
-            color: #666;
-          }
-
-          p {
-            line-height: 1.6;
-            font-size: 1rem;
-          }
-
-          ul {
-            list-style: disc;
-            margin-left: 1.5rem;
-          }
-
-          .skills, .kompetens, .sprak {
-            margin-bottom: 1rem;
-          }
-
-          .korkort {
-            font-weight: bold;
-            margin: 0.5rem 0;
-          }
-
-          .referens p {
-            margin: 0.2rem 0;
-          }
- 
+.download-btn:hover {
+  background-color: #0056b3;
+}
